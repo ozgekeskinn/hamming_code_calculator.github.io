@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamming Error-Correcting Code Simülatörü</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="left"></div>
+  <div class="container"><br/><br/>
+    <h1>Hamming Error-Correcting Code Simülatörü</h1>
+    <div class="input-section">
+      <br/><br/><br/><p>Veri girişini 4, 8 veya 16 bit olacak şekilde yazınız.</p>
+      <label for="input-data"><strong>Veri Girişi:</strong></label>
+      <input type="text" id="input-data">
+      <br/><button onclick="calculateHamming()">Hamming Kodunu Hesapla</button>
+    </div>
+    <div class="output-section">
+      <p><strong>Hamming Kodu:</strong> <span id="hamming-code"></span></p>
+      <p><strong>Hatalı Hamming Kodu:</strong> <span id="faulty-hamming-code"></span></p>
+      <p><strong>Hatalı Bit:</strong> <span id="error-position"></span></p>
+      <p><strong>Düzeltildi:</strong> <span id="corrected-data"></span></p>
+    </div>
+  </div>
+  <div class="right"></div>
+  <script src="script.js"></script>
+</body>
+</html>

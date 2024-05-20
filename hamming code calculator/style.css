@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d1c0ea;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left, .right {
+  width: 30vw;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left {
+  background-image: url(img/resim.jpg);
+}
+
+.right {
+  background-image: url(img/resim.jpg);
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.output-section {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ff0000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
+
+button:hover {
+  background-color: #ff0000;
+}
